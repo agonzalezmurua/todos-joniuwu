@@ -1,10 +1,9 @@
 export function Form({ onSubmit }) {
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // Prevent form submission
+
     const { target } = event;
     const { title, description, important } = target;
-
-    console.log(important.checked);
 
     onSubmit({
       title: title.value,
