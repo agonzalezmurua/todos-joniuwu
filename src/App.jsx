@@ -1,4 +1,3 @@
-import "./App.css";
 import { Form } from "./components/Form";
 import { TodoList } from "./components/TodoList";
 import { TodoItem } from "./components/TodoItem";
